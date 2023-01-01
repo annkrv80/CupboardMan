@@ -6,7 +6,7 @@ public class CloseCupboard {
             cup.setStatus("закрыт");
             System.out.println("Шкаф № " + cup.getNumber() + " " + cup.getStatus());
         } else {
-            System.out.println("Ключ неподходит!!!");
+            System.out.println("Ключ неподходит! Попробуй еще раз!");
         }
     }
 
