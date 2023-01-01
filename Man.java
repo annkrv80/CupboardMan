@@ -4,9 +4,9 @@ public class Man {
     private String name;
     private int key;
 
-    public Man(String name){
-        this.name=name;
-        this.key=new Random().nextInt(5);
+    public Man(String name) {
+        this.name = name;
+        this.key = new Random().nextInt(5);
     }
 
     public String getName() {
@@ -23,8 +23,8 @@ public class Man {
 
     @Override
     public String toString() {
-        
+
         return this.name;
     }
-    
+
 }
