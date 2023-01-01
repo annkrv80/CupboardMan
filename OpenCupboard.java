@@ -7,7 +7,7 @@ public class OpenCupboard {
             cup.setStatus("открыт");
             System.out.println("Шкаф № " + cup.getNumber() + " " + cup.getStatus());
         } else {
-            System.out.print("Упс...Ключ неподходит");
+            System.out.print("Упс...Ключ неподходит! Попробуй еше раз!");
         }
 
     }
