@@ -1,23 +1,21 @@
-import java.util.Random;
-
 public class Man {
     private String name;
-    private int key;
+    private String key;
 
     public Man(String name) {
         this.name = name;
-        this.key = new Random().nextInt(5);
+        
     }
 
     public String getName() {
         return name;
     }
 
-    public int getKey() {
+    public String getKey() {
         return key;
     }
-
-    public void setKey(int key) {
+    
+    public void setKey(String key) {
         this.key = key;
     }
 
