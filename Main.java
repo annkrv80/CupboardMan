@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         Cupboard cupboard=new Cupboard(1);
-        cupboard.setStatus("закрыт");
+        cupboard.setStatus("открыт");
         System.out.println(cupboard);
         Man andrey=new Man("Андрей");
+        andrey.setKey("Есть");
         
 
         if(cupboard.getStatus()=="закрыт"){
